@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: #111;
+}
+.main-heading{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+
+}
+#hdt{
+    color:  #ffb400;
+}
+.body-head{
+color: #ced4da;;
+}
+.body-para{
+    color: white;
+
+}
+textarea {
+    width: 300px;
+    height: 150px;
+    
+  }
+button
+{
+  text-decoration: none;
+   color: #f0f0f0;;
+   border: 1px solid #ffb400;
+   padding: 15px;
+   border-radius: 20px;
+background-color: #111;
+
+}
+.btn:hover {
+  background-color: #ffb400 !important;
+  font-weight: bold;
+
+}
+@media only screen and (max-width: 600px) {
+    .main-heading {
+        font-size: 45px;
+    
+    }
+    .body-head{
+        color: #ced4da;;
+         font-size: 20px ;
+        }
+        .body-para{
+            color: white;
+           font-size: 15px;
+        }
+        textarea {
+            width: 300px;
+            height: 130px;
+            
+          }
+          button
+{
+   font-size: 12px;
+   color: #f0f0f0;;
+   border: 1px solid #ffb400;
+   padding: 15px;
+   border-radius: 20px;
+background-color: #111;
+   margin-left: 35%;
+          
+  }
+}
